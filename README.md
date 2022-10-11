@@ -43,7 +43,7 @@ const path = require("path");
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-  entry: "./src/index.js",
+  entry: "./src/index.ts",
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.js",
@@ -86,10 +86,10 @@ mkdir public
 ```
 inside src
 ``` bash 
-nano App.js
-nano index.js
+nano App.ts
+nano index.ts
 ```
-## index.js
+## index.ts
 ``` javascript 
 import React from "react";
 import ReactDOM from "react-dom";
